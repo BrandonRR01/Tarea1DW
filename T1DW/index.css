@@ -1,0 +1,290 @@
+
+*{
+    margin: 0;
+    padding: 0; 
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.hide{
+    display: block;
+}
+.uk-container{
+ background-color: #000;
+ margin: 0;
+ max-width: 100%;
+ margin-bottom: 40px;
+}
+
+.uk-navbar-nav > li > a{
+    color: #fff;
+    font-size: 14pt;
+    text-transform: none;
+}
+
+.uk-navbar-nav > li > a:hover,
+.card-text:hover
+{
+    color: red;
+    cursor: pointer;
+}
+
+#logo{
+    height: 50px;
+}
+#logo2{
+    height: 170px;
+}
+
+
+.uk-card-title{
+    color:red  !important;
+    font-size: 12pt;
+    padding-top: 12px;
+}
+
+
+.uk-card-body{
+    padding: 0;
+}
+
+.uk-card-default{
+    box-shadow: none;
+}
+
+
+.flex-card-images,
+.card-images,
+.writers-of-the-week-image,
+.writers-of-the-week-title{
+    padding-top: 30px;
+    width: 100%;
+}
+
+.card-images{
+   
+    border-top: 8px solid black;
+}
+.card-text{
+    color: #000;
+    padding-bottom: 50px;
+    font-size: 14pt;
+}
+
+p> em{
+    color: #000;
+}
+
+p > em:hover{
+    color:red;
+    cursor: pointer;
+}
+
+h1{
+    border-bottom: 8px solid red;
+}
+
+.paragraph-text{
+ color:#000;
+ padding-bottom: 30px;
+ font-size: 42px;
+}
+
+.paragraph-column{
+    color:red;
+}
+.paragraph-column:hover{
+    color: black;
+}
+
+.paragraph-title{
+
+    font-size: 14pt;
+    color:#000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.grid-container{
+    border-bottom: 8px solid black;
+    padding-top: 30px;
+}
+
+.wrap-container{
+    padding-left: 10%;
+    padding-right: 10%;
+    letter-spacing: 2px;
+}
+
+.side-container{
+    max-width: 300px;
+}
+
+.column-container{
+    max-width: 600px;
+}
+.flex-images{
+    max-width: 200px;
+    border: none;
+}
+.divider{
+    border-left: 1px solid black;
+    padding-left: 20px;
+}
+
+.last{
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+
+p{
+ font-size: 10pt;
+}
+a{
+    padding-bottom: 2px;
+    border-bottom: 1px solid black;
+}
+a:hover{
+      border-bottom: 1px solid red;
+}
+a, p, p > a{
+    color: black;
+}
+a:hover, p > a:hover
+{
+    color: red;
+    text-decoration: none;
+}
+
+.text:hover{
+    color:red;
+}
+
+.footer1{
+    background: #eee;
+    padding: 50px 0 50px 0;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+.footer-p{
+    font-size: 16pt;
+}
+
+.footer-input{
+    border: none;
+    padding: 14px 23px 14px 35px;
+    font-size: 10pt;
+    line-height: 28px;
+    font-weight: 500;
+    width: 20rem;
+
+}
+
+.btn-red{
+    background-color: #f42535;
+    color: #fff;
+    font-weight: 500;
+    border:none;
+    padding: 14px 0 14px 0;
+    width: 14rem; 
+    line-height: 28px;
+    font-size: 10pt;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-red:hover{
+    background-color: rgb(187, 8, 8);
+}
+.footer-divider{
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 30px;
+}
+
+.footer-title{
+    padding-top: 30px;
+    color:#000;
+}
+.footer-title:hover{
+    color:red;
+}
+
+.footer-text{
+    color:grey;
+    font-size: 11pt;
+}
+
+.footer-text:hover{
+    cursor: pointer;
+    color:red;
+}
+
+.footer2{
+    background-color: #000;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+    padding: 30px 0 30px 0;
+}
+
+.footer2 > p:hover {
+    color:red;
+}
+
+.footer-links{
+    color:#fff;
+    font-size: 10pt;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    text-decoration: none;
+}
+.footer-links:hover{
+    text-decoration: none;
+}
+
+.footer-links > i{
+      font-size: 16pt;
+      color:#fff;
+     
+}
+
+.footer-links > i:hover{
+    cursor: pointer;
+    color: red;
+
+}
+
+.writers-container{
+    padding-bottom: 60px;
+}
+
+.writers-name{
+    color:#000;
+    font-size: 18pt;
+}
+.writers-of-the-week-name{
+    color:#000;
+    font-size: 36pt;
+}
+.writers-name:hover,
+.writers-of-the-week-name:hover{
+    color:red;
+}
+
+.writers-links{
+
+    color: red;
+    font-size: 11pt;
+}
+
+.writers-links:hover{
+    color:#000 !important;
+    cursor: pointer;
+
+}
+.writers-of-the-week{
+
+    max-width: 20%;
+}
